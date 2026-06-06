@@ -1,0 +1,38 @@
+[
+  {
+    "category": "direct_override",
+    "n_prompts": 10,
+    "detection_rate": 0.7,
+    "mean_anomaly_score": 0.6585
+  },
+  {
+    "category": "persona_injection",
+    "n_prompts": 10,
+    "detection_rate": 0.7,
+    "mean_anomaly_score": 0.5924
+  },
+  {
+    "category": "delimiter_escape",
+    "n_prompts": 10,
+    "detection_rate": 0.8,
+    "mean_anomaly_score": 0.6019
+  },
+  {
+    "category": "indirect_nested",
+    "n_prompts": 10,
+    "detection_rate": 0.3,
+    "mean_anomaly_score": 0.4685
+  },
+  {
+    "category": "jailbreak_templates",
+    "n_prompts": 10,
+    "detection_rate": 0.5,
+    "mean_anomaly_score": 0.5074
+  },
+  {
+    "category": "data_extraction",
+    "n_prompts": 6,
+    "detection_rate": 0.5,
+    "mean_anomaly_score": 0.451
+  }
+]

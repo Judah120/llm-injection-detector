@@ -1,0 +1,18 @@
+{
+  "best_threshold": 0.5,
+  "best_auc_roc": 0.7821,
+  "best_f1_injection": 0.75,
+  "best_recall_injection": 0.75,
+  "best_precision_injection": 0.75,
+  "best_accuracy": 0.76,
+  "evasion_at_zero_dilution": 0.8,
+  "evasion_at_50pct_dilution": 0.6,
+  "evasion_at_90pct_dilution": 0.8,
+  "top_3_features": [
+    "char_length",
+    "word_count",
+    "avg_sentence_length"
+  ],
+  "hardest_category": "indirect_nested",
+  "easiest_category": "delimiter_escape"
+}

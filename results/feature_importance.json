@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "char_length",
+    "benign_mean": 42.5692,
+    "injection_mean": 74.7857,
+    "absolute_delta": 32.2165
+  },
+  {
+    "feature": "word_count",
+    "benign_mean": 7.5692,
+    "injection_mean": 12.4286,
+    "absolute_delta": 4.8593
+  },
+  {
+    "feature": "avg_sentence_length",
+    "benign_mean": 7.5692,
+    "injection_mean": 9.3214,
+    "absolute_delta": 1.7522
+  },
+  {
+    "feature": "override_keyword_count",
+    "benign_mean": 0.0,
+    "injection_mean": 1.3214,
+    "absolute_delta": 1.3214
+  },
+  {
+    "feature": "question_count",
+    "benign_mean": 0.6923,
+    "injection_mean": 0.1071,
+    "absolute_delta": 0.5852
+  },
+  {
+    "feature": "sentence_count",
+    "benign_mean": 1.0,
+    "injection_mean": 1.4821,
+    "absolute_delta": 0.4821
+  },
+  {
+    "feature": "instruction_nesting_depth",
+    "benign_mean": 0.0,
+    "injection_mean": 0.4821,
+    "absolute_delta": 0.4821
+  },
+  {
+    "feature": "avg_word_length",
+    "benign_mean": 4.8785,
+    "injection_mean": 5.2373,
+    "absolute_delta": 0.3589
+  },
+  {
+    "feature": "persona_pattern_count",
+    "benign_mean": 0.0,
+    "injection_mean": 0.3571,
+    "absolute_delta": 0.3571
+  },
+  {
+    "feature": "colon_count",
+    "benign_mean": 0.0,
+    "injection_mean": 0.3036,
+    "absolute_delta": 0.3036
+  },
+  {
+    "feature": "delimiter_count",
+    "benign_mean": 0.0,
+    "injection_mean": 0.1964,
+    "absolute_delta": 0.1964
+  },
+  {
+    "feature": "starts_with_imperative",
+    "benign_mean": 0.0615,
+    "injection_mean": 0.1786,
+    "absolute_delta": 0.117
+  },
+  {
+    "feature": "override_keyword_density",
+    "benign_mean": 0.0,
+    "injection_mean": 0.1035,
+    "absolute_delta": 0.1035
+  },
+  {
+    "feature": "bracket_count",
+    "benign_mean": 0.0,
+    "injection_mean": 0.0714,
+    "absolute_delta": 0.0714
+  },
+  {
+    "feature": "capitalized_word_ratio",
+    "benign_mean": 0.2226,
+    "injection_mean": 0.1975,
+    "absolute_delta": 0.0251
+  },
+  {
+    "feature": "quote_count",
+    "benign_mean": 0.0154,
+    "injection_mean": 0.0,
+    "absolute_delta": 0.0154
+  },
+  {
+    "feature": "uppercase_ratio",
+    "benign_mean": 0.0485,
+    "injection_mean": 0.0595,
+    "absolute_delta": 0.011
+  },
+  {
+    "feature": "punctuation_density",
+    "benign_mean": 0.0276,
+    "injection_mean": 0.0379,
+    "absolute_delta": 0.0103
+  },
+  {
+    "feature": "lexical_diversity",
+    "benign_mean": 0.9861,
+    "injection_mean": 0.9773,
+    "absolute_delta": 0.0088
+  },
+  {
+    "feature": "exclamation_count",
+    "benign_mean": 0.0,
+    "injection_mean": 0.0,
+    "absolute_delta": 0.0
+  }
+]
