@@ -123,7 +123,7 @@ llm-injection-detector/
 ## Quickstart
 
 ```bash
-git clone https://github.com/judahidowu/llm-injection-detector
+git clone https://github.com/Judah120/llm-injection-detector
 cd llm-injection-detector
 pip install -r requirements.txt
 
