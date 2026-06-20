@@ -2,7 +2,7 @@
 
 > Applying Isolation Forest to detect prompt injection attacks without requiring labelled attack data.
 
-**Author:** Judah Idowu · [judahidowu.lovable.app](https://judahidowu.lovable.app) · [LinkedIn](https://linkedin.com/in/judah-idowu)  
+**Author:** Judah Idowu · [LinkedIn](https://linkedin.com/in/judah-idowu)  
 **Related work:** [Deploying Isolation Forest at the Edge (2025)](https://doi.org/10.13140/RG.2.2.23518.14408)
 
 ---
@@ -15,7 +15,7 @@ Prompt injection is one of the most pervasive attack surfaces in deployed LLM sy
 2. Supervised classifiers trained on known attacks fail to generalise to novel injection techniques.
 3. Semantic intent is hard to separate from legitimate user requests with similar surface forms.
 
-This project applies **unsupervised anomaly detection** — specifically Isolation Forest — to the prompt injection detection problem. The model is trained exclusively on benign user queries to learn the statistical distribution of normal prompts. Injection attempts are flagged as outliers at inference time, requiring **no labelled attack examples during training**.
+This project applies **unsupervised anomaly detection**, specifically Isolation Forest, to the prompt injection detection problem. The model is trained exclusively on benign user queries to learn the statistical distribution of normal prompts. Injection attempts are flagged as outliers at inference time, requiring **no labelled attack examples during training**.
 
 This approach directly extends the UEBA-based anomaly detection methodology from my prior work on IoT security ([Idowu, 2025](https://doi.org/10.13140/RG.2.2.23518.14408)) into the LLM domain.
 
@@ -111,7 +111,7 @@ llm-injection-detector/
 ├── notebooks/
 │   └── analysis.ipynb    # End-to-end walkthrough
 ├── data/
-│   └── dataset.json      # Train/test split (auto-generated)
+│   └── dataset.json      # Train/test split
 ├── results/              # Experiment outputs (JSON)
 ├── figures/              # All plots (PNG)
 ├── models/               # Saved detector (joblib)
@@ -178,17 +178,3 @@ And extends the adversarial robustness analysis from my manuscript in preparatio
 The Security Decay framing introduced here extends the "Evasion Curves" concept from the UEBA manuscript into the LLM security domain.
 
 ---
-
-## Future Work
-
-- [ ] Add sentence embedding features (`all-MiniLM-L6-v2`) to address persona injection gap
-- [ ] Evaluate against real prompt injection datasets (e.g., [Gandalf](https://gandalf.lakera.ai/), [PromptBench](https://github.com/microsoft/promptbench))
-- [ ] Adversarial training: retrain after generating evasion examples
-- [ ] Streaming detection: adapt for token-by-token analysis in real-time API deployments
-- [ ] Benchmark against supervised baselines (fine-tuned BERT classifier)
-
----
-
-## License
-
-MIT
